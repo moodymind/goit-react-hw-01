@@ -1,0 +1,20 @@
+.friends_list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 30px;
+  margin-top: 100px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5%;
+  border: 1px solid #000000;
+}
